@@ -20,16 +20,15 @@ This dashboard provides a 360° view of bike sales performance across products, 
 ## 🖼️ Dashboard Preview
 
 ### Welcome Page
-![Welcome Page](screenshots/1_welcome_page.jpg)
-
+![Welcome Page](1_welcome_page.jpg)
 ### Summary Page
-![Summary Page](screenshots/2_summary_page.jpg)
+![Summary Page](2_summary_page.jpg)
 
 ### Categories Page
-![Categories Page](screenshots/3_categories_page.jpg)
+![Categories Page](3_categories_page.jpg)
 
 ### Returns Page
-![Returns Page](screenshots/4_returns_page.jpg)
+![Returns Page](4_returns_page.jpg)
 
 ---
 
@@ -50,7 +49,7 @@ This dashboard provides a 360° view of bike sales performance across products, 
 
 The dataset follows a star schema with a central `Sales` fact table connected to `Products`, `Customers`, `Territories`, `Returns`, and a custom `Calendar` date table.
 
-![Data Model](documentation/data_model.png)
+![Data Model](data_model.png)
 
 **Tables:**
 - `Calendar` (custom date table)
@@ -66,7 +65,7 @@ The dataset follows a star schema with a central `Sales` fact table connected to
 
 ## 🧮 Key DAX Measures
 
-![Measures List](documentation/measures_list.png)
+![Measures List](measures_list.png)
 
 ```dax
 Previous Month Revenue = 
